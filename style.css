@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Offset for fixed navbar */
+}
+
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.about-section, .portfolio-section, .contact-section {
+    padding: 50px 0;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+/* Custom Hover Effects */
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.portfolio-section .col-md-4:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section img {
+        width: 100px;
+    }
+}
